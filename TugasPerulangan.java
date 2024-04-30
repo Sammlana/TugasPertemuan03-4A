@@ -21,16 +21,16 @@ public class TugasPerulangan {
 
         double nilai = 0;
 
-
+        nilai = nilket * 0.25 + niltug * 0.2 + niluts * 0.25 + niluas * 0.3;
 
         char grade;
 
         if (nilai >= 0 && nilai <= 100) {
-            if (nilai >= 85) {
+            if (nilai >= 80) {
                 grade = 'A';
             } else if (nilai >= 70) {
                 grade = 'B';
-            } else if (nilai >= 55) {
+            } else if (nilai >= 60) {
                 grade = 'C';
             } else if (nilai >= 40) {
                 grade = 'D';
