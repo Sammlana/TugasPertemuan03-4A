@@ -25,7 +25,6 @@ public class TugasPerulangan {
 
         char grade;
 
-        if (nilai >= 0 && nilai <= 100) {
             if (nilai >= 80) {
                 grade = 'A';
             } else if (nilai >= 70) {
@@ -57,8 +56,7 @@ public class TugasPerulangan {
                 default:
                     System.out.println("Grade tidak valid.");
             }
-        } else {
-            System.out.println("Nilai tidak valid. Harap masukkan nilai antara 0 dan 100.");
-        }
+        
+        
     }
 }
