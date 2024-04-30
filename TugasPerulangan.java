@@ -4,24 +4,24 @@ public class TugasPerulangan {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Masukkan nama mahasiswa: ");
+        System.out.print("Masukkan Nama Mahasiswa: ");
         String nama = scanner.nextLine();
 
-        System.out.print("Masukkan nilai Kehadiran: ");
-        double nilket = scanner.nextDouble();
+        System.out.print("Masukkan Nilai Kehadiran: ");
+        double nilkeh = scanner.nextDouble();
         
-        System.out.print("Masukkan nilai Tugas: ");
+        System.out.print("Masukkan Nilai Tugas: ");
         double niltug = scanner.nextDouble();
 
-        System.out.print("Masukkan nilai UTS: ");
+        System.out.print("Masukkan Nilai UTS: ");
         double niluts = scanner.nextDouble();
 
-        System.out.print("Masukkan nilai UAS: ");
+        System.out.print("Masukkan Nilai UAS: ");
         double niluas = scanner.nextDouble();
 
         double nilai = 0;
 
-        nilai = nilket * 0.25 + niltug * 0.2 + niluts * 0.25 + niluas * 0.3;
+        nilai = nilkeh * 0.2 + niltug * 0.25 + niluts * 0.25 + niluas * 0.3;
 
         char grade;
 
